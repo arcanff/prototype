@@ -8,18 +8,18 @@
         <div class="container">
             <form action="/validar" method="post">
                 <label id="Nombre">NOMBRE</label>
-                <input type="text" name="nombre" id="nombre" />
+                <input type="text" name="nombre" id="nombre" required/>
 
                 <label id="P_inicial">PRODUCTO INICIAL</label>
-                <input type="number" name="p_inicial" id="p_inicial" />
+                <input type="number" name="p_inicial" id="p_inicial" required/>
 
                 <label id="N_pedido">NUMERO DE PEDIDO</label>
-                <input type="number" name="n_pedido" id="n_pedido" />
+                <input type="number" name="n_pedido" id="n_pedido" required/>
                 <label id="Cantidad">CANTIDAD</label>
-                <input type="number" name="cantidad" id="cantidad" />
+                <input type="number" name="cantidad" id="cantidad" required/>
 
                 <label id="Medida">MEDIDA</label>
-                <input type="text" name="medida" id="medida" />
+                <input type="text" name="medida" id="medida" required/>
 
                 <div class="form-group sucess">
                     <label for="my-select" id="Estado">ESTADO</label>
@@ -32,7 +32,7 @@
                     </select>
                 </div>
                 <label id="P_final">PRODUCTO FINAL</label>
-                <input type="number" name="p_final" id="p_final" />
+                <input type="number" name="p_final" id="p_final" required/>
                 <input type="submit" value="CREAR REPORTE" />
             </form>
         </div>
